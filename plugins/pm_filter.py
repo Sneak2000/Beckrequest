@@ -624,6 +624,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴛᴀᴛᴜꜱ', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="• ° °"
+        )
+        await query.message.edit_text(
+            text="• • °"
+        )
+        await query.message.edit_text(
+            text="• • •"
+        )       
         await query.message.edit_text(                     
             text=script.HELPER_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -731,6 +740,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="• ° °"
+        )
+        await query.message.edit_text(
+            text="• • °"
+        )
+        await query.message.edit_text(
+            text="• • •"
+        )       
         await query.message.edit_text(
             text=script.CREDIT_INFO,
             reply_markup=reply_markup,
@@ -967,6 +985,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="• ° °"
+        )
+        await query.message.edit_text(
+            text="• • °"
+        )
+        await query.message.edit_text(
+            text="• • •"
+        )       
+        await query.message.edit_text(
             text=script.OWNER_INFO,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
@@ -984,6 +1011,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
         ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="• ° °"
+        )
+        await query.message.edit_text(
+            text="• • °"
+        )
+        await query.message.edit_text(
+            text="• • •"
+        )       
         await query.message.edit_text(
             text=script.GROUP_INFO,
             reply_markup=reply_markup,
@@ -1005,6 +1041,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('↺ ʀᴇғʀᴇsʜ', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟐𝟓/𝟏𝟎𝟎%\n▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭"
+        )
+        await query.message.edit_text(
+            text="▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟓𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭"
+        )
+        await query.message.edit_text(
+            text="▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟕𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭"
+        )
+        await query.message.edit_text(
+            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬\nSEARCHING...    𝟏𝟎𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬"
+        )
         total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
@@ -1024,6 +1072,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('↺ ʀᴇғʀᴇsʜ', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟐𝟓/𝟏𝟎𝟎%\n▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭"
+        )
+        await query.message.edit_text(
+            text="▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟓𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭"
+        )
+        await query.message.edit_text(
+            text="▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟕𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭"
+        )
+        await query.message.edit_text(
+            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬\nSEARCHING...    𝟏𝟎𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬"
+        )
         total = await Media.count_documents()
         users = await db.total_users_count()
         chats = await db.total_chat_count()
