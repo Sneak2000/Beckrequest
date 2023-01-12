@@ -641,9 +641,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("Hᴇʀᴇ Iꜱ Mʏ Hᴇʟᴘ Cᴏᴍᴍᴇɴᴛ 🛠")
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
-             InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
-             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb')    
+             InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tele'),
+             InlineKeyboardButton('sʜᴀʀᴇ-ᴛᴇxᴛ​', callback_data='share_text'),
+             InlineKeyboardButton('sᴛɪᴄᴋɪᴅ', callback_data='sticker')
          ], [
              InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings'),
              InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
@@ -655,12 +655,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
          ], [
             InlineKeyboardButton('sᴏɴɢ', callback_data='song'),
             InlineKeyboardButton('ᴛᴛs', callback_data='tts'),  
-            InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tele')     
+            InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings')     
          ], [
             InlineKeyboardButton('ᴠɪᴅᴇᴏ', callback_data='video'),
             InlineKeyboardButton('ғᴏɴᴛ', callback_data='font'),
             InlineKeyboardButton('ᴅᴇᴘʟᴏʏ', callback_data='deploy')
          ], [ 
+            InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
+            InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
+            InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb')    
+         ], [
+            InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
+            InlineKeyboardButton('ᴄoʀᴏɴᴀ', callback_data='corona')
+         ], [
             InlineKeyboardButton('↭ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ​↭', callback_data='help2')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -723,6 +730,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.BUTTON_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "share_text":
+        buttons = [[
+            InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SHARE_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
