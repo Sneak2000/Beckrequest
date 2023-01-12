@@ -166,15 +166,15 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+            InlineKeyboardButton(f' ♤ {search} ♤ ', 'qinfo')
         ]
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
-             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton(f'☞ ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'ᴛɪᴘs ☜', 'tinfo')
          ]
     )
 
@@ -638,6 +638,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        await query.answer("Hᴇʀᴇ Iꜱ Mʏ Hᴇʟᴘ Cᴏᴍᴍᴇɴᴛ 🛠")
     elif query.data == "help":
         buttons = [[
              InlineKeyboardButton('ᴀᴜᴅʙᴏᴏᴋ', callback_data='abook'),
@@ -668,6 +669,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+        await query.answer("Eɴɪᴏʏ Mʏ Exᴛʀᴀ Mᴏᴅꜱ 📯")
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs​', callback_data="group_info"),
@@ -677,6 +679,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="• ° °"
+        )
+        await query.message.edit_text(
+            text="• • °"
+        )
+        await query.message.edit_text(
+            text="• • •"
+        )       
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
@@ -1225,15 +1236,15 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f' 🎬 {search} 🎬 ', 'qinfo')
+            InlineKeyboardButton(f' ♤ {search} ♤ ', 'qinfo')
         ]
     )
     btn.insert(1, 
          [
-             InlineKeyboardButton(f'📮 ɪɴꜰᴏ', 'reqinfo'),
-             InlineKeyboardButton(f'📟 ᴍᴏᴠɪᴇ', 'minfo'),
-             InlineKeyboardButton(f'🔰 sᴇʀɪᴇs', 'sinfo'),
-             InlineKeyboardButton(f'🎁 ᴛɪᴘs', 'tinfo')
+             InlineKeyboardButton(f'☞ ɪɴꜰᴏ', 'reqinfo'),
+             InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+             InlineKeyboardButton(f'sᴇʀɪᴇs', 'sinfo'),
+             InlineKeyboardButton(f'ᴛɪᴘs ☜', 'tinfo')
          ]
     )
 
