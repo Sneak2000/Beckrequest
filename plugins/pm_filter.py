@@ -643,7 +643,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
              InlineKeyboardButton('ᴛɢʀᴀᴘʜ', callback_data='tele'),
              InlineKeyboardButton('sʜᴀʀᴇ-ᴛᴇxᴛ​', callback_data='share_text'),
-             InlineKeyboardButton('sᴛɪᴄᴋɪᴅ', callback_data='sticker')
+             InlineKeyboardButton('ɢᴇɴ-ᴘᴀss', callback_data='gen_pass')
          ], [
              InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings'),
              InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
@@ -666,7 +666,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb')    
          ], [
             InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
-            InlineKeyboardButton('ᴄoʀᴏɴᴀ', callback_data='corona')
+            InlineKeyboardButton('ᴄoʀᴏɴᴀ', callback_data='corona'),
+            InlineKeyboardButton ('ʟʏʀɪᴄs', callback_data='lyrics')
          ], [
             InlineKeyboardButton('↭ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ​↭', callback_data='help2')
          ]]
@@ -733,6 +734,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "lyrics":
+        buttons = [[
+            InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.LYRICS_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "share_text":
         buttons = [[
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
@@ -760,6 +771,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CONNECTION_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "gen_pass":
+        buttons = [[
+            InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.PASS_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
