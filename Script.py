@@ -399,3 +399,23 @@ This module only works for my admins
 
 ➤ 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐚𝐧𝐝 𝐔𝐬𝐚𝐠𝐞:
 • /share - 𝚁𝚎𝚙𝚕𝚢 𝚆𝚒𝚝𝚑 𝙰𝚗𝚢 𝚃𝚎𝚡𝚝 𝚃𝚘 𝚂𝚎𝚗𝚍 𝚃𝚑𝚒𝚜 𝙲𝚘𝚖𝚖𝚊𝚗𝚍</b>"""
+
+    PASS_TXT_TXT = """
+<b>Help: Password Generator
+
+There Is Nothing To Know More. Send Me The Limit Of Your Password.
+- I Will Give The Password Of That Limit.
+
+Commands and Usage:
+• /genpassword or /genpw 20
+
+NOTE:
+• Only Digits Are Allowed
+• Maximum Allowed Digits Till 84 
+(I Can't Generate Passwords Above The Length 84)
+• IMDb should have admin privillage.
+• These commands works on both pm and group.
+• These commands can be used by any group member.</b>"""
+
+    LYRICS_TXT_TXT = """
+<b>wai8 karoo🥵</b>""""
