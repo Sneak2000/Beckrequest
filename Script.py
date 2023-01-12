@@ -393,3 +393,5 @@ This module only works for my admins
 • /setskip - <code>Skip no of files before indexing</code>
 • /send - <code>Send any message through bot to users. /send (username/userid) reply with message </code>
 • /deletefiles - <code>Delete CamRip and PreDvD files delete from database </code>"""
+
+    SHARE_TXT = """ʜᴇʟʟᴏ {}, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ɪɴ ᴛʜᴀᴛ ɴᴀᴍᴇ​"""
