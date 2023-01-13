@@ -418,4 +418,4 @@ NOTE:
 • These commands can be used by any group member.</b>"""
 
     LYRICS_TXT_TXT = """
-<b>wai8 karoo🥵</b>""""
+<b>wai8 karoo🥵</b>"""
