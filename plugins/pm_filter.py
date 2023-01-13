@@ -645,7 +645,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('sʜᴀʀᴇ-ᴛᴇxᴛ​', callback_data='share_text'),
              InlineKeyboardButton('ɢᴇɴ-ᴘᴀss', callback_data='gen_pass')
          ], [
-             InlineKeyboardButton('ᴘɪɴɢ', callback_data='pings'),
+             InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='corona'),
              InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
              InlineKeyboardButton('sᴛɪᴄᴋɪᴅ', callback_data='sticker')
          ], [
@@ -665,7 +665,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄᴏᴜɴᴛʀʏ', callback_data='country'),
             InlineKeyboardButton('ᴄᴀʀʙᴏɴ', callback_data='carb')    
          ], [
-            InlineKeyboardButton('ᴊsᴏɴᴇ', callback_data='json'),
+            InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='fun'),
             InlineKeyboardButton('ᴄoʀᴏɴᴀ', callback_data='corona'),
             InlineKeyboardButton ('ʟʏʀɪᴄs', callback_data='lyrics')
          ], [
