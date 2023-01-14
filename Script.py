@@ -323,9 +323,9 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : ᴀꜰsᴀʟ ʜᴀsʜɪᴍ​
-• ᴜꜱᴇʀɴᴀᴍᴇ : @crazyspiderr
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/AFxSU'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝑹𝑶𝒀 𝑱𝑶𝑺𝑬𝑷𝑯
+• ᴜꜱᴇʀɴᴀᴍᴇ : @MB_Owner
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/MB_Owner'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     GROUP_INFO = """
 <b>⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟</b>
@@ -335,11 +335,6 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 📢 Bᴏᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ."""
 
     CREDIT_INFO = """
-<b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b>   
-➥ 𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href=https://github.com/EvamariaTG>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
-➥ 𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>
-➥ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>
-➥ 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>『★ʀᴏʏ★』</a>
 
 <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
 ➥ 𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href=https://github.com/CrazyDeveloperTG/Doctor-Strange>Dᴏᴄᴛᴏʀ Sᴛʀᴀɴɢᴇ</a>
@@ -347,7 +342,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 
 <b>⍟───[Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ]───⍟</b>
 ➥ 𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>
-➥ 𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>"""
+➥ 𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/MB_Owner>𝕄𝕆𝕍𝕀𝔼 𝔹𝔸ℤ𝔸ℝ 𝕆𝕎ℕ𝔼ℝ</a>"""
 
     FIlTERS_TXT = """
 <b>ʜᴇʏ,
