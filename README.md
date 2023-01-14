@@ -8,7 +8,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <br>
 <p>
-<a href="https://heroku.com/deploy?template=https://github.com/MyBotGit/Elsa-Strange-mod">
+<a href="https://heroku.com/deploy?template=https://github.com/ashuroy345/doctor-strange-req-repo">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p></details>
