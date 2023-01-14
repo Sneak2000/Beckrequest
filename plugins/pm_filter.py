@@ -63,7 +63,7 @@ async def pm_text(bot, message):
     user = message.from_user.first_name
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
-    await message.reply_text("<b>If you want any movie please request on our movie group @at3movies</b>")
+    await message.reply_text("<b>If you want any movie please request on our movie group @Movie_Bazar_GP</b>")
     await bot.send_message(
         chat_id=LOG_CHANNEL,
         text=f"<b>#PM_MSG\n\nName : {user}\n\nID : {user_id}\n\nMessage : {content}</b>"
@@ -945,7 +945,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "deploy":
         buttons = [[
            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/CrazyDeveloperTG/Doctor-Strange'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/AFxSU')
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/MB_Owner')
         ], [
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
         ]]
@@ -1030,7 +1030,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton ('✆Cᴏɴᴛᴀᴄᴛ', url="t.me/AFxSU")
+            InlineKeyboardButton ('✆Cᴏɴᴛᴀᴄᴛ', url="t.me/MB_Owner")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1051,11 +1051,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="t.me/doctorstrangedb")
                   ],[
-            InlineKeyboardButton("Gʀᴏᴜᴘ", url="t.me/at3movies"),
-            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/dhhdhf")
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="t.me/Movie_Bazar_GP"),
+            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/+2HfmwYPYVshhYWM1")
                   ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/czdbotz_support"),
-            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/czdbotz")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/+tAviZ6S2QrswYmJl"),
+            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/MyBotzzupdate")
                   ],[
             InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
         ]]   
@@ -1091,19 +1091,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟐𝟓/𝟏𝟎𝟎%\n▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭"
+            text="▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟐𝟓/𝟏𝟎𝟎%\n▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟓𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭"
+            text="▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟓𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟕𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭"
+            text="▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟕𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▭  ▭▭\nSEARCHING...     𝟖𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▭ ▭▭"
+            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▭  ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟖𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬\nSEARCHING...    𝟏𝟎𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬"
+            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...    𝟏𝟎𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬"
         )
         total = await Media.count_documents()
         users = await db.total_users_count()
@@ -1125,19 +1125,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟐𝟓/𝟏𝟎𝟎%\n▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭"
+            text="▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟐𝟓/𝟏𝟎𝟎%\n▬▬ ▬▭ ▭▭  ▭▭ ▭▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟓𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭"
+            text="▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟓𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▭  ▭▭ ▭▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭\nSEARCHING...     𝟕𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭"
+            text="▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟕𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▭▭ ▭▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▭  ▭▭\nSEARCHING...     𝟖𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▭ ▭▭"
+            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▭  ▭▭\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...     𝟖𝟓/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▭ ▭▭"
         )
         await query.message.edit_text(
-            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬\nSEARCHING...    𝟏𝟎𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬"
+            text="▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬\n𝐋𝐎𝐀𝐃𝐈𝐍𝐆 𝐒𝐓𝐀𝐓𝐔𝐒...    𝟏𝟎𝟎/𝟏𝟎𝟎%\n▬▬ ▬▬ ▬▬  ▬▬ ▬▬ ▬▬"
         )
         total = await Media.count_documents()
         users = await db.total_users_count()
@@ -1333,7 +1333,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"🎪 ᴛɪᴛɪʟᴇ {search}\n\n┏ 🤴 ᴀsᴋᴇᴅʙʏ : {message.from_user.mention}\n┣⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/{temp.U_NAME}'>ᴍᴀsᴛᴇʀ​</a>\n┗🍁 ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/czdbotz'>ᴄᴢᴅ ʙᴏᴛᴢ​</a>\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}"
+        cap = f"🎪 ᴛɪᴛɪʟᴇ {search}\n\n┏ 🤴 ᴀsᴋᴇᴅʙʏ : {message.from_user.mention}\n┣⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/{temp.U_NAME}'>⑅ 𝑱𝑫 ⑅​</a>\n┗🍁 ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/MyBotzzupdate'>𝐁𝐎𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒​</a>\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}"
     if imdb and imdb.get('poster'):
         try:
             pic_fi=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
