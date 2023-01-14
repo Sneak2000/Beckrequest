@@ -12,9 +12,9 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 # ⚠️ Please don't change our credits 𝚃𝙷𝙰𝙽𝙺𝚂 𝚃𝙾 & 𝙳𝙴𝚅 👇🏻
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='tg://settings'>Tʜɪs ᴘᴇʀsᴏɴ</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/MB_Owner'>Tʜɪs ᴘᴇʀsᴏɴ</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
-✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/AFxSU'>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>
+✯ Dᴇᴠᴏʟᴏᴘᴇʀ: <a href='https://t.me/MB_Owner'>★ʀᴏʏ★</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://t.me/quickfastt'>Qᴜɪᴄᴋ Fᴀsᴛ</a>
@@ -24,7 +24,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
 - 𝚂𝙾𝚄𝚁𝙲𝙴 - 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙿𝙾 𝙱𝚄𝚃𝚃𝙾𝙽</b>
 <b>DEVS:</b>
-- <a href=https://t.me/at3movies>𝙼𝙾𝚅𝙸𝙴𝚂 𝙵𝙻𝙸𝚇</a>"""
+- <a href=https://t.me/Movie_Bazar_GP>𝐌𝐎𝐕𝐈𝐄 𝐁𝐀𝐙𝐀𝐑</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -100,7 +100,7 @@ these are the extra features of Elsa
 ⏭️ /song 𝚂𝙾𝙽𝙶 𝙽𝙰𝙼𝙴 
 
 <b>𝚆𝙾𝚁𝙺𝚂 𝙱𝙾𝚃𝙷 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙿𝙼</b>
-@𝙼𝙾𝚅𝙸𝙴𝚂 𝙵𝙻𝙸𝚇"""
+@Movie_Bazar_GP"""
 
     VIDEO_TXT ="""𝙷𝙴𝙻𝙿 𝚈𝙾𝚄 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝚅𝙸𝙳𝙴𝙾 𝙵𝚁𝙾𝙼 𝚈𝙾𝚄𝚃𝚄𝙱𝙴.
 • 𝘜𝘴𝘢𝘨𝘦
@@ -337,17 +337,17 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
     CREDIT_INFO = """
 <b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b>   
 ➥ 𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href=https://github.com/EvamariaTG>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
-➥ 𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://github.com/Joelkb>Jᴏᴇʟ ᠰ TɢX</a>
-➥ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://github.com/CrazyDeveloperTG>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>
-➥ 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒 : <a href=https://github.com/Devil-Botz>『Dᴇᴠɪʟ࿐Tɢ』</a>
+➥ 𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>
+➥ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>
+➥ 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>『★ʀᴏʏ★』</a>
 
 <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
 ➥ 𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href=https://github.com/CrazyDeveloperTG/Doctor-Strange>Dᴏᴄᴛᴏʀ Sᴛʀᴀɴɢᴇ</a>
 ➥ 𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://github.com/Devil-Botz/Elsa>Eʟꜱᴀ</a>
 
 <b>⍟───[Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ]───⍟</b>
-➥ 𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/crazyspiderr>ɛӼ_ռöֆ__</a>
-➥ 𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/AFxSU>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫</a>"""
+➥ 𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>
+➥ 𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>"""
 
     FIlTERS_TXT = """
 <b>ʜᴇʏ,
