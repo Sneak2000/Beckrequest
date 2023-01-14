@@ -338,11 +338,11 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 
 <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
 ➥ 𝗌𝗈𝗎𝗋𝖼𝖾 𝖼𝗈𝖽𝖾 : <a href=https://github.com/CrazyDeveloperTG/Doctor-Strange>Dᴏᴄᴛᴏʀ Sᴛʀᴀɴɢᴇ</a>
-➥ 𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://github.com/Devil-Botz/Elsa>Eʟꜱᴀ</a>
+➥ 𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://github.com/MyBotGit/Elsa-Strange-mod>𝐃𝐎𝐂𝐓𝐎𝐑 𝐒𝐓𝐑𝐀𝐍𝐆𝐄</a>
 
 <b>⍟───[Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ]───⍟</b>
 ➥ 𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/MB_Owner>★ʀᴏʏ★</a>
-➥ 𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/MB_Owner>𝕄𝕆𝕍𝕀𝔼 𝔹𝔸ℤ𝔸ℝ 𝕆𝕎ℕ𝔼ℝ</a>"""
+➥ 𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/MB_Owner>𝕄𝕆𝕍𝕀𝔼 𝔹𝔸ℤ𝔸ℝ</a>"""
 
     FIlTERS_TXT = """
 <b>ʜᴇʏ,
