@@ -624,15 +624,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴛᴀᴛᴜꜱ', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="• ° °"
-        )
-        await query.message.edit_text(
-            text="• • °"
-        )
-        await query.message.edit_text(
-            text="• • •"
-        )       
         await query.message.edit_text(                     
             text=script.HELPER_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
@@ -687,15 +678,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="• ° °"
-        )
-        await query.message.edit_text(
-            text="• • °"
-        )
-        await query.message.edit_text(
-            text="• • •"
-        )       
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
             reply_markup=reply_markup,
@@ -789,15 +771,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="• ° °"
-        )
-        await query.message.edit_text(
-            text="• • °"
-        )
-        await query.message.edit_text(
-            text="• • •"
-        )       
         await query.message.edit_text(
             text=script.CREDIT_INFO,
             reply_markup=reply_markup,
@@ -945,7 +918,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "deploy":
         buttons = [[
            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/CrazyDeveloperTG/Doctor-Strange'),
-           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/MB_Owner')
+           InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/AFxSU')
         ], [
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
         ]]
@@ -1030,18 +1003,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "owner_info":
         buttons = [[
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton ('✆Cᴏɴᴛᴀᴄᴛ', url="t.me/MB_Owner")
+            InlineKeyboardButton ('✆Cᴏɴᴛᴀᴄᴛ', url="t.me/AFxSU")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="• ° °"
-        )
-        await query.message.edit_text(
-            text="• • °"
-        )
-        await query.message.edit_text(
-            text="• • •"
-        )       
         await query.message.edit_text(
             text=script.OWNER_INFO,
             reply_markup=reply_markup,
@@ -1051,24 +1015,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="t.me/doctorstrangedb")
                   ],[
-            InlineKeyboardButton("Gʀᴏᴜᴘ", url="t.me/Movie_Bazar_GP"),
-            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/+2HfmwYPYVshhYWM1")
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/at3movies"),
+            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="https://t.me/movieflixupdate")
                   ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/+tAviZ6S2QrswYmJl"),
-            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/MyBotzzupdate")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/czdbotz_support"),
+            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/czdbotz")
                   ],[
             InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
         ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="• ° °"
-        )
-        await query.message.edit_text(
-            text="• • °"
-        )
-        await query.message.edit_text(
-            text="• • •"
-        )       
         await query.message.edit_text(
             text=script.GROUP_INFO,
             reply_markup=reply_markup,
@@ -1333,7 +1288,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"🎪 ᴛɪᴛɪʟᴇ {search}\n\n┏ 🤴 ᴀsᴋᴇᴅʙʏ : {message.from_user.mention}\n┣⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/{temp.U_NAME}'>⑅ 𝑱𝑫 ⑅​</a>\n┗🍁 ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/MyBotzzupdate'>𝐁𝐎𝐓 𝐔𝐏𝐃𝐀𝐓𝐄𝐒​</a>\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}"
+        cap = f"🎪 ᴛɪᴛɪʟᴇ {search}\n\n┏ 🤴 ᴀsᴋᴇᴅʙʏ : {message.from_user.mention}\n┣⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/{temp.U_NAME}'>ᴍᴀsᴛᴇʀ​</a>\n┗🍁 ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/czdbotz'>ᴄᴢᴅ ʙᴏᴛᴢ​</a>\n\nᴀꜰᴛᴇʀ 10 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ\n\n★ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : {message.chat.title}"
     if imdb and imdb.get('poster'):
         try:
             pic_fi=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
