@@ -44,7 +44,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '28643132'))
 API_HASH = environ.get('API_HASH', '510c3009ea589830a89e045bf8aae656')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5339620069:AAGT4OW4sp3O_nHS_XO15T-l7trQ_a-oZ9A')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5976769625:AAHh4ITzR-543DqnOncD60SZNLRoXXegrZQ')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -66,7 +66,7 @@ auth_users = [int(user) if id_pattern.search(user) else user for user in environ
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-
+support_chat_id = environ.get('SUPPORT_CHAT_ID')
 # This is required for the plugins involving the file system.
 TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 
@@ -83,11 +83,12 @@ MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://tv:tv@cluster0.bkeqttx.mo
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 # Others
+SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/czdbotz_support")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+2HfmwYPYVshhYWM1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/czdbotz")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+BVP4yf8HHEFmNmJl")
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ?')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
